@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1000" height="36" viewBox="0 0 1000 36">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#05D9E8" stop-opacity="0"/><stop offset=".2" stop-color="#05D9E8"/><stop offset=".5" stop-color="#7B2FFF"/><stop offset=".8" stop-color="#FF2A6D"/><stop offset="1" stop-color="#FF2A6D" stop-opacity="0"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<line x1="0" y1="18" x2="1000" y2="18" stroke="url(#g)" stroke-width="2"/>
+<polygon points="500,8 512,18 500,28 488,18" fill="#05070d" stroke="#00FF9C" stroke-width="2" filter="url(#glow)"/>
+<circle r="4" cy="18" fill="#ffffff" filter="url(#glow)"><animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

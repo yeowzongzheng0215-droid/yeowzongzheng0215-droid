@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="480" height="250" viewBox="0 0 480 250">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FF2A6D" stroke-opacity=".07"/></pattern></defs>
+<style>text{font-family:'Courier New','DejaVu Sans Mono',monospace} .p{animation:pu 2s ease-in-out infinite} @keyframes pu{50%{opacity:.35}}</style>
+<polygon points="2,2 436,2 478,44 478,248 44,248 2,206" fill="#080c16" stroke="#FF2A6D" stroke-width="2" filter="url(#glow)"/>
+<polygon points="2,2 436,2 478,44 478,248 44,248 2,206" fill="url(#grid)"/>
+<rect class="p" x="2" y="30" width="5" height="48" fill="#FF2A6D"/>
+<text x="34" y="36" font-size="12" fill="#FF2A6D" letter-spacing="2">PROJECT_01 // GAME JAM</text>
+<text x="34" y="70" font-size="26" font-weight="900" fill="#ffffff" filter="url(#glow)">THE MASK GUARDIAN</text>
+<text x="34" y="92" font-size="13" fill="#FF2A6D">Global Game Jam · Theme: &quot;Mask&quot;</text>
+<line x1="34" y1="106" x2="440" y2="106" stroke="#FF2A6D" stroke-opacity=".4"/>
+<text x="34" y="128" font-size="14" fill="#00FF9C">ROLE &gt; Character Design &amp; UI Design</text>
+<text x="34" y="150" font-size="14" fill="#9aa7bd">▸ 48-hour game jam build</text><text x="34" y="172" font-size="14" fill="#9aa7bd">▸ Team of 9</text>
+<polygon points="34,206 300,206 316,222 300,238 34,238" fill="#FF2A6D" fill-opacity=".15" stroke="#FF2A6D"/>
+<text x="48" y="227" font-size="14" font-weight="bold" fill="#FF2A6D">▶ PLAY ON ITCH.IO</text>
+<polygon points="2,2 436,2 478,44 478,248 44,248 2,206" fill="url(#scan)"/>
+</svg>
